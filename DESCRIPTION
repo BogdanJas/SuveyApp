@@ -1,0 +1,11 @@
+Package: SurveyApp
+Type: Package
+Title: A Shiny Application for Managing Surveys
+Version: 0.1.0
+Author: Bogdan Jasiński 
+Maintainer: Bogdan Jasiński <b.jasinski6@student.uw.edu.pl>
+Description: A Shiny application for creating, managing, and analyzing surveys. The app includes user authentication, survey upload, survey completion, and basic analytics.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends: shiny, shinymanager, shinyjs, readxl, writexl, tidyverse, R6
